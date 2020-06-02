@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/axis",
+		"1": "block/axis_top",
+		"particle": "block/axis"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 16], "texture": "#0"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#0"},
+				"south": {"uv": [6, 0, 10, 16], "texture": "#0"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#0"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#1"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-1, 18, 0],
+			"translation": [1, 2.25, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_righthand": {
+			"rotation": [-10, -31, 0],
+			"translation": [2, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.74, 0.74, 0.74]
+		},
+		"gui": {
+			"rotation": [30, -141, 0],
+			"translation": [0, -0.5, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -6.5, 0],
+			"scale": [1.61, 1.61, 1.61]
+		}
+	},
+	"groups": [
+		{
+			"name": "shaft",
+			"children": [0]
+		}
+	]
+}

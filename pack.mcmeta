@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 5,
+    "description": "Create Mod in Vanilla by TR"
+  },
+  "language": {
+    "en_us":{
+	  "name": "English",
+	  "region": "United States",
+	  "bidirectional": false
+	}
+  }
+}

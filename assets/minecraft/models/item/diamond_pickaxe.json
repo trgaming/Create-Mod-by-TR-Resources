@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_pickaxe"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 2180001}, "model":"block/shaft"},
+		{ "predicate": {"custom_model_data": 2180002}, "model":"block/shaftvert"},
+		{ "predicate": {"custom_model_data": 2180003}, "model":"block/shaftt"}
+
+	]
+}

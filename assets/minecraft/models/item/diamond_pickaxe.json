@@ -6,7 +6,8 @@
 	"overrides": [
 		{ "predicate": {"custom_model_data": 2180001}, "model":"block/shaft"},
 		{ "predicate": {"custom_model_data": 2180002}, "model":"block/shaftvert"},
-		{ "predicate": {"custom_model_data": 2180003}, "model":"block/shaftt"}
+		{ "predicate": {"custom_model_data": 2180003}, "model":"block/shaftt"},
+		{ "predicate": {"custom_model_data": 2180004}, "model":"block/water_wheel"}
 
 	]
 }
